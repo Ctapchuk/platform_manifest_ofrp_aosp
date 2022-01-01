@@ -18,7 +18,7 @@ To initialize a shallow clone, which will save even more space, use a command li
 
 Then to sync up:
 
-    repo sync
+    repo sync --fetch-submodules
 
 NOTE: Device makefile in the device tree and dependencies file should use the "twrp" prefix.
 
