@@ -10,11 +10,11 @@ with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOSP trees to build OFRP, use a command like this:
 
-    repo init -u git://github.com/Ctapchuk/platform_manifest_ofrp_aosp.git -b ofrp-11
+    repo init -u https://github.com/Ctapchuk/platform_manifest_ofrp_aosp.git -b ofrp-11
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 
-    repo init --depth=1 -u git://github.com/Ctapchuk/platform_manifest_ofrp_aosp.git -b ofrp-11
+    repo init --depth=1 -u https://github.com/Ctapchuk/platform_manifest_ofrp_aosp.git -b ofrp-11
 
 Then to sync up:
 
