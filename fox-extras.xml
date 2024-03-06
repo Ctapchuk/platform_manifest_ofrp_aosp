@@ -14,5 +14,11 @@
         <linkfile src="tools" dest="build/tools"/>
     </project>
 
+    <remove-project name="android_system_vold" />
+    <project path="system/vold" name="Ctapchuk/android_system_vold" remote="github" revision="android-12.1"/>
+
+    <remove-project name="android_vendor_twrp" />
+    <project path="vendor/twrp" name="Ctapchuk/android_vendor_twrp" remote="github" revision="android-12.1" />
+
     <project path="vendor/recovery" name="Ctapchuk/android_vendor_ofrp" remote="github" revision="fox_12.1"/>
 </manifest>
